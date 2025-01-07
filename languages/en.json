@@ -1,0 +1,11 @@
+{
+  "theme-data":
+  {
+    "name": "Hira",
+    "description": "A theme focused to simplicity and readability. Suitable for text-based contents."
+  },
+  "home": "Home",
+  "light-mode": "Light mode",
+  "dark-mode": "Dark mode",
+  "print": "Print"
+}

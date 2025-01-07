@@ -1,0 +1,6 @@
+{
+  "coverImageCaption": {
+    "type": "string",
+    "label": "カバー画像のキャプション"
+  }
+}
