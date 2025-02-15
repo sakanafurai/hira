@@ -1,6 +1,6 @@
 # Hira Bludit Theme
 
-A minimalist theme for Bludit CMS.
+Hira (pronoumce: *hee-rah*) a minimalist theme for Bludit CMS.
 
 [Live demo](https://via.rossa.cc/demo/hira/) / [Download](https://github.com/sakanafurai/hira/releases/download/1.0.0/hira.zip)
 
