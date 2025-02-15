@@ -104,7 +104,7 @@ th, td {
 }
 
 /**/
-div.article h2 {
+div.article h2.border {
   border-left: medium solid #ccc;
   padding: 0.5em;
 }
