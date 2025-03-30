@@ -4,7 +4,7 @@
 <?php if (!$page->isStatic() && !$url->notFound()): ?>
 <!-- Page data -->
   <ul class="page-data">
-    <li><?php echo $page->date(); ?></li>
+    <li><?php echo $page->date(); ?><time datetime="<?php echo $page->date("Y-m-d H:i"); ?>"></li>
     <li><?php echo $page->user('nickname'); ?></li>
     <li class="page-category"><?php echo $page->category(); ?></li>
   </ul>
