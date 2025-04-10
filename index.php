@@ -29,6 +29,12 @@
   <!-- Footer -->
   <?php include(THEME_DIR_PHP.'footer.php'); ?>
 
+  <?php if ( isset( $_GET['print'] ) ): ?>
+  <script>
+    window.print();
+  </script>
+  <?php endif; ?>
+
   <!-- Load Bludit Plugins: Site Body End -->
   <?php Theme::plugins('siteBodyEnd'); ?>
 

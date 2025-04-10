@@ -25,6 +25,11 @@
       </li>
     <?php endif; ?>
 
+    <!-- Print button -->
+    <li class="nav-item">
+    <a href="<?php echo $page->permalink() ?>?print"><?php echo $L->get('print'); ?></a>
+    </li>
+
   </ul>
 </nav>
 
