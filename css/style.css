@@ -133,6 +133,10 @@ ul.posts-list {
   margin: 20px 0;
 }
 
+.page-title:empty:before {
+  content: "\025a0";
+}
+
 ul.pagination, ul.page-data, ul.navbar-content {
   display: flex;
   flex-wrap: wrap;
