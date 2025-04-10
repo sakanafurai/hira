@@ -26,9 +26,11 @@
     <?php endif; ?>
 
     <!-- Print button -->
+    <?php if ( $WHERE_AM_I == 'page' ): ?>
       <li class="nav-item">
         <a href="<?php echo $page->permalink() ?>?print"><?php echo $L->get('print'); ?></a>
       </li>
+    <?php endif; ?>
 
   </ul>
 </nav>
